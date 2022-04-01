@@ -1,0 +1,29 @@
+.home{
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height: 100vh;
+    .homeContent{
+        &-button{
+            cursor: pointer;
+            width:300px;
+            height: 70px;
+            border: 2px solid rgba(255, 255, 255);
+            border-radius: 10px;
+            background-color: transparent;
+            color: white;
+            font-size: 22px;
+            transition:.3s;
+        }
+        &-button:hover{
+            color: rgba(118,62,26,1);
+            background-color:white;
+            transition: .3s;
+        }
+        h1{
+            color: white;
+            font-weight: 500;
+        }
+    }
+}
